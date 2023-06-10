@@ -1,14 +1,4 @@
-// Notice we only pass in the function name without parameters. 
-// document.querySelector(".drum").addEventListener("click", handleClick);
 
-
-// Create a function to call when a button is clicked 
-// function handleClick() {
-//     alert("I got clicked!");
-// }
-
-
-// Challange: Add an event listener to every single button instead of one and make them white 
 var btnLengths = document.querySelectorAll(".drum").length; 
 
 for(var i = 0; i < btnLengths; i++)
